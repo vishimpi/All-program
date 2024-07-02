@@ -11,10 +11,19 @@ public static void main(String[] args)
 	
 	String [] a = s.split(" ");
 	
-	for(int i=0; i<a.length; i++)
+	//way2
+//	for(int i=0; i<a.length; i++)
+//	{
+//		output = a[i]+ " " + output;
+//	}
+//	System.out.println(output);
+	
+	//way2
+	for(String x:a)
 	{
-		output = a[i]+ " " + output;
+		output = x + " " + output;
 	}
 	System.out.println(output);
+
 }
 }
