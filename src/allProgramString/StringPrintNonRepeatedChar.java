@@ -20,7 +20,7 @@ public class StringPrintNonRepeatedChar
         	   }
         	}
            
-           if(!repeated)
+           if(repeated)
            {
         	   System.out.println(ch);
            }
